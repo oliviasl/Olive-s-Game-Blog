@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Olives-Game-Blog/static/css/main.a8d2d4fc.css",
+    "main.js": "/Olives-Game-Blog/static/js/main.c03d4bc2.js",
+    "static/js/787.4c42c6b7.chunk.js": "/Olives-Game-Blog/static/js/787.4c42c6b7.chunk.js",
+    "index.html": "/Olives-Game-Blog/index.html",
+    "main.a8d2d4fc.css.map": "/Olives-Game-Blog/static/css/main.a8d2d4fc.css.map",
+    "main.c03d4bc2.js.map": "/Olives-Game-Blog/static/js/main.c03d4bc2.js.map",
+    "787.4c42c6b7.chunk.js.map": "/Olives-Game-Blog/static/js/787.4c42c6b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8d2d4fc.css",
+    "static/js/main.c03d4bc2.js"
+  ]
+}
