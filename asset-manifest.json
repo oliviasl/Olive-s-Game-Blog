@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Olives-Game-Blog/static/css/main.a8d2d4fc.css",
-    "main.js": "/Olives-Game-Blog/static/js/main.c03d4bc2.js",
-    "static/js/787.4c42c6b7.chunk.js": "/Olives-Game-Blog/static/js/787.4c42c6b7.chunk.js",
-    "index.html": "/Olives-Game-Blog/index.html",
-    "main.a8d2d4fc.css.map": "/Olives-Game-Blog/static/css/main.a8d2d4fc.css.map",
-    "main.c03d4bc2.js.map": "/Olives-Game-Blog/static/js/main.c03d4bc2.js.map",
-    "787.4c42c6b7.chunk.js.map": "/Olives-Game-Blog/static/js/787.4c42c6b7.chunk.js.map"
+    "main.css": "/oliviasl.github.io/Olives-Game-Blog/static/css/main.a8d2d4fc.css",
+    "main.js": "/oliviasl.github.io/Olives-Game-Blog/static/js/main.a765047f.js",
+    "static/js/787.4c42c6b7.chunk.js": "/oliviasl.github.io/Olives-Game-Blog/static/js/787.4c42c6b7.chunk.js",
+    "static/media/GrimFandangoRemastered2.jpeg": "/oliviasl.github.io/Olives-Game-Blog/static/media/GrimFandangoRemastered2.f846d6a0b03fdda7b0bc.jpeg",
+    "static/media/GrimFandangoRemasteredIndexCover.jpeg": "/oliviasl.github.io/Olives-Game-Blog/static/media/GrimFandangoRemasteredIndexCover.90109d2cff084dac829f.jpeg",
+    "static/media/GrimFandangoRemastered3.jpeg": "/oliviasl.github.io/Olives-Game-Blog/static/media/GrimFandangoRemastered3.808ab95c4b436f67dcd9.jpeg",
+    "static/media/GameIcon.jpeg": "/oliviasl.github.io/Olives-Game-Blog/static/media/GameIcon.7c51af2341dbb97c56ca.jpeg",
+    "static/media/GrimFandangoRemastered1.jpeg": "/oliviasl.github.io/Olives-Game-Blog/static/media/GrimFandangoRemastered1.56af3b95adbd00d3fe48.jpeg",
+    "static/media/GrimFandangoRemasteredHeader.jpeg": "/oliviasl.github.io/Olives-Game-Blog/static/media/GrimFandangoRemasteredHeader.ae797d6c59cb7c750faf.jpeg",
+    "index.html": "/oliviasl.github.io/Olives-Game-Blog/index.html",
+    "main.a8d2d4fc.css.map": "/oliviasl.github.io/Olives-Game-Blog/static/css/main.a8d2d4fc.css.map",
+    "main.a765047f.js.map": "/oliviasl.github.io/Olives-Game-Blog/static/js/main.a765047f.js.map",
+    "787.4c42c6b7.chunk.js.map": "/oliviasl.github.io/Olives-Game-Blog/static/js/787.4c42c6b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8d2d4fc.css",
-    "static/js/main.c03d4bc2.js"
+    "static/js/main.a765047f.js"
   ]
 }
