@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/olives-game-blog/static/css/main.3957ffbe.css",
-    "main.js": "/olives-game-blog/static/js/main.06e6a100.js",
-    "static/js/787.30fe63b4.chunk.js": "/olives-game-blog/static/js/787.30fe63b4.chunk.js",
-    "static/media/GameIcon.jpeg": "/olives-game-blog/static/media/GameIcon.7c51af2341dbb97c56ca.jpeg",
-    "index.html": "/olives-game-blog/index.html",
-    "main.3957ffbe.css.map": "/olives-game-blog/static/css/main.3957ffbe.css.map",
-    "main.06e6a100.js.map": "/olives-game-blog/static/js/main.06e6a100.js.map",
-    "787.30fe63b4.chunk.js.map": "/olives-game-blog/static/js/787.30fe63b4.chunk.js.map"
+    "main.css": "/Olives-Game-Blog/static/css/main.3957ffbe.css",
+    "main.js": "/Olives-Game-Blog/static/js/main.fd1449e4.js",
+    "static/js/787.30fe63b4.chunk.js": "/Olives-Game-Blog/static/js/787.30fe63b4.chunk.js",
+    "static/media/GameIcon.jpeg": "/Olives-Game-Blog/static/media/GameIcon.7c51af2341dbb97c56ca.jpeg",
+    "index.html": "/Olives-Game-Blog/index.html",
+    "main.3957ffbe.css.map": "/Olives-Game-Blog/static/css/main.3957ffbe.css.map",
+    "main.fd1449e4.js.map": "/Olives-Game-Blog/static/js/main.fd1449e4.js.map",
+    "787.30fe63b4.chunk.js.map": "/Olives-Game-Blog/static/js/787.30fe63b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3957ffbe.css",
-    "static/js/main.06e6a100.js"
+    "static/js/main.fd1449e4.js"
   ]
 }
