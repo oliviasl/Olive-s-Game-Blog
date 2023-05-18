@@ -17,7 +17,7 @@ var base = new Airtable({apiKey: 'patJ0rbW7hd3k2q1d.f36ccc2a6a466d1194a0f4bc1386
 
 const table = base('Master Games');
 
-// for sorting game records by index
+// for sorting game records by Date
 function compareRecords(gameA, gameB) {
   if (gameA.fields.Date > gameB.fields.Date) {
     return -1;
