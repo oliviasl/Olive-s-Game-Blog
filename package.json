@@ -1,7 +1,7 @@
 {
   "name": "olives-game-blog",
   "version": "0.1.0",
-  "homepage": "https://oliviasl.github.io/olives-game-blog",
+  "homepage": "https://oliviasl.github.io/Olives-Game-Blog",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
