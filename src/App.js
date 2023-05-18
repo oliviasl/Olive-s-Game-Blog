@@ -17,6 +17,17 @@ var base = new Airtable({apiKey: 'patJ0rbW7hd3k2q1d.f36ccc2a6a466d1194a0f4bc1386
 
 const table = base('Master Games');
 
+// for sorting game records by index
+function compareRecords(gameA, gameB) {
+  if (gameA.fields.Date > gameB.fields.Date) {
+    return -1;
+  }
+  else if (gameA.fields.Date < gameB.fields.Date) {
+    return 1;
+  }
+  return 0;
+}
+
 const getRecords = () => {
   return table.select().firstPage();
 }
@@ -30,7 +41,7 @@ function App() {
     if (gameRecords.length === 0) {
       getRecords()
       .then((data) => {
-        setGameRecords(data);
+        setGameRecords(data.sort(compareRecords));
       })
       .catch((error) => {
         console.log(error);

@@ -4,11 +4,12 @@ import { useParams } from 'react-router-dom';
 import Post from "./Post.jsx";
 
 const PostDetails =  ({gameRecords}) => {
-    const postid = useParams();
+    const params = useParams();
 
+    // find correct post to show
     var postIndex = 0;
     for (let i = 0;i < gameRecords.length; i ++){
-        if (gameRecords[i].Postid === postid) {
+        if (gameRecords[i].fields.Postid === params.postid) {
             postIndex = i;
         }
     }
