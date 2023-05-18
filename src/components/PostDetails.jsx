@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import Post from "./Post.jsx";
 
 const PostDetails =  ({gameRecords}) => {
-    const {postid} = useParams();
+    const postid = useParams();
 
     var postIndex = 0;
     for (let i = 0;i < gameRecords.length; i ++){

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link
@@ -41,28 +41,28 @@ function App() {
   return (
     <div className="App">
       <div className="banner">
-        <img className="banner-img" src={gameIcon}/>
+        <img className="banner-img" src={gameIcon} alt="icon"/>
         <h1 className="App-header">Olive's Game Blog</h1>
-        <img className="banner-img" src={gameIcon}/>
+        <img className="banner-img" src={gameIcon} alt="icon"/>
       </div>
     
-      <Router>
+      <HashRouter>
         <div className="nav">
           <ul className="nav-container">
             <li>
-              <Link className="nav-link" to="Olives-Game-Blog/">Latest Posts</Link>
+              <Link className="nav-link" to="/">Latest Posts</Link>
             </li>
             <li>
-              <Link className="nav-link" to="Olives-Game-Blog/posts-index">Posts Index</Link>
+              <Link className="nav-link" to="/posts-index">Posts Index</Link>
             </li>
           </ul>
         </div>
         <Routes>
-          <Route exact path='/Olives-Game-Blog/' element={< Posts gameRecords={gameRecords}/>}></Route>
-          <Route exact path='/Olives-Game-Blog/post-details/:postid' element={< PostDetails gameRecords={gameRecords}/>}></Route>
-          <Route exact path='/Olives-Game-Blog/posts-index' element={< PostIndex gameRecords={gameRecords} />}></Route>
+          <Route exact path='/' element={< Posts gameRecords={gameRecords}/>}></Route>
+          <Route exact path='/post-details/:postid' element={< PostDetails gameRecords={gameRecords}/>}></Route>
+          <Route exact path='/posts-index' element={< PostIndex gameRecords={gameRecords} />}></Route>
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 
